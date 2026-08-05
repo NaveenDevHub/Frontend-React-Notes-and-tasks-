@@ -1,0 +1,244 @@
+control + ` open terminal 
+
+shift + alt down arrow to copy/ clone the line
+
+more than 2 line select that and  alt down arrow to copy/ clone the line
+
+control + B to open file structure 
+
+change folder name through cmd --- cd folder name 
+
+Back to old folder -- cd..
+
+to clear the terminal -- clear
+
+
+to create dummy content -- lorem 100... etc
+
+<pre> </pre> --- its completely shows based on what we gives 
+
+
+shift control alt  down arrow to increase cursor size  
+
+
+COMMAND FOR HTML TAG  control forward slash/
+
+------------------------------------------------------ hyper link ----------------------------------------------------------------------
+
+
+<a> </>  target='_blank' it is used to open new tab -- title ='goes to google page' it can show pop up after hover the mouse on hyper link
+
+
+<audio controls auto play mute loop> <source src='audio.mp3' type="audio/mpeg"></audio>
+
+<video> <source src='video.mp4'></video>
+
+
+
+---------------------------------- Text formatting ----------------------------------------------------------------------------------------
+
+<b></b> -- to highlight the text
+<i></i> -- italic 
+<u></u> -- under line the text
+<del></del> -- to strike the word or text
+<big></big> -- slightly bigger then normal text
+<small></small> -- slightly smaller the normal text
+<sub></sub> -- subscript
+<sup></sup> -- super script
+
+
+------------------------------------------------------ git push ----------------------------------------------------------------------------
+
+git init ------ to initialize the git into our folder
+
+git status --- to check the status it can track or not
+
+
+git add. --- it can add everything 
+
+git add index.html --- it can add specific file 
+
+git commit -m "search module " -- it can represent what i change in that file
+
+git remote add  orgin  (paste the repo link)
+
+they can create sub branches -- developer branch (sub branch (search branch ,,, footer branch )) -- unit_testing_branch -- testing_branch -- UAT branch -- Production_branch is also called as main branch ,, to avoid errors 
+
+
+its an first time -- git branch -m main
+
+git push -U origin main -- it can push the code into github
+
+
+-------------------------------------------------------- git pull ----------------------------------------------------------------------------
+
+
+git clone (repo link)
+
+
+
+------------------------------ span and div------------------------------------------
+
+<span></span> inline container to group the element for style
+
+<div></div> block level container to group the element for style that.
+
+
+--------------------------- list ----------------------------------------------------
+
+unordered list 
+
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+
+unordered list - nested  
+
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+
+	
+
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+</ul>
+
+
+ordered list 
+
+<ol>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
+
+
+------------------------------ table -----------------------------------------
+
+<table>
+	<tr> -- row
+		<th></th> -- columns heading <th>
+		<th></th>
+		<th></th>
+
+	</tr>
+
+	<tr> -- row
+		<td></td> -- columns data <td>
+		<td></td>
+		<td></td>
+
+	</tr>
+</table>
+
+
+-------------------------------------- buttons ----------------------------------
+
+<button> click me</button>
+
+
+-------------------------------------- script for button clicking ----------------
+
+<script>
+function clickme(){
+	document.getElementById('greeting').innerHTML="byeee"
+	
+}
+
+</script>
+
+
+onclick='clickme' ---- add this in html inline attribute ,,  
+
+
+HTML 
+
+
+<button> click me</button>
+<p>hello </p>
+
+
+-----------------------form --------------------------------------------------
+
+<form action='customer.cpp' method='post'> action is used to call backend .,,,, method is used to fetch ot pull the data
+	
+</form>
+
+http method
+get
+put 
+delete
+
+
+
+<input type='text'>
+
+types in input attributes
+
+text
+number
+email
+password
+date
+quantity - type: number name: quantity min:0 max:9 value=1 -- default value
+radio -- set common name for every thing 
+file
+
+
+
+
+<label for='username'> username :</label> ------ is used for put a name for that
+
+<input type='text' id='username '> ---- for 'and' , 'id' are used for mention both
+
+
+attributes
+
+placeholders are used to shows the customer how to fill this
+
+minlength='6'
+maxlength='20'
+
+pattern='[0-9]{2}-[0-9]{5}-[0-9]{5}' --- if the user input like this format only it can take otherwise it will shows error
+
+
+
+---------------------------------------------------------- css ------------------------------------------------------
+
+position : 
+
+ relative - positioned relative to where it normally
+fixed - position relative to the view port
+absolute - positioned relative to nearest ancestor
+sticky - positioned based on scroll position
+static - default position for an element
+
+#box2.div -- to create div  and with box1 id
+
+
+combinators - explain the relationship between listed selectors
+
+  = desececdent
+> = child
+~ = general sibling
++ = adjacent sibling
+
+
+selector > selector
+
+div >  selector
+
+
+
