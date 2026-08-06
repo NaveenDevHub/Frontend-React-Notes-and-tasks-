@@ -241,4 +241,84 @@ selector > selector
 div >  selector
 
 
+------------------------------- pseudo classes -------------------------------------------------------
 
+--> Keyword which is going to add in the element to change the behaviour of the element
+
+hover --- is used to change color if the mouse hover the link or text
+
+visited --- after the link  or text visted it will change the color
+
+not(:hover) --- opposite to hover
+
+li:nth-child(1) -- it will change based on the value inside the bracket   3n-- means it will shows the countinues of 3 list
+
+display block and display none to hide and show elements
+
+
+------------------------------- pseudo elements ------------------------------------------------------------
+
+selector :: pseudo-elements  -- is used to change specific letter
+
+h1::first-letter{font-size:2em;}
+h1::first-line{font-size:2em;}
+p::selection{color: grey} --- it will change the color after the selection
+
+to remove ul bullets li::marker{content:none}
+
+#fruit li:: before{content:'some content'} ---> #fruit li:: after {content:'some content'} --->
+
+-------------------------------- drop down-----------------------------------------------------------------
+
+--- pure html and css without js
+
+
+----------------------------------  flex box --------------------------------------------------------------
+
+gid view ---> is the alternative of flex box
+
+display:'flex';
+flex-direction:'row  , row-revrse , column , column-reverse';
+
+
+justify content
+
+flex- start
+flex-end
+center
+space-between
+space -evenly
+
+
+
+allign-items
+
+flex-end
+center
+
+
+flex-wrap:wrap; --- it will automatically align based on viewport
+
+nowrap
+
+wrap-reverse
+
+
+
+align content
+
+flex-start
+flex-end
+flex-center
+space-evenly
+space-around
+
+
+
+column gap
+
+column-gap
+row-gap
+
+
+align-self --- for single
