@@ -322,3 +322,111 @@ row-gap
 
 
 align-self --- for single
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+11/08/2026
+
+------------------------------------------------------- java script ---------------------------------------------------------------------------------
+
+
+naming convention --> pascal and camel
+
+pascal--> class, constructors.
+
+camel --> variables , methods or functions , objects
+
+P → Pascal Case is a naming convention where each word starts with a capital letter, including the first word.  ---> example :StudentDetails
+C → Camel Case is a naming convention where the first word starts with a lowercase letter and every following word starts with a capital letter. ---> example :studentDetails
+
+
+<script>
+---> internal script
+</script>
+
+
+
+link external script
+
+ <script src="index.js">
+---> internal script
+</script>
+
+
+print in js is --> console.log();
+
+
+// comments in js
+
+windows.alert(""); ---> this is used for alert for all browser // this is an inbuild functon.
+
+windows.prompt(""); ---> to get the input from usser like alert symbol.
+
+document.getElementById("").textcontent = "gfhghffgsdhgd"; --> from js console to document--> website screen
+
+
+--------------------- variables --------------------------------------------------------------------
+
+A containers that stores a value
+
+behaves as if it were the value it contains
+
+
+---------------------------------- decalaration -----------------------------------------------------
+
+let X;
+
+----------------------------------- assignment ---------------------------------------------------------
+
+X=100;
+
+
+---------------------------------------- data types -----------------------------------------------------
+premetive
+
+| Data Type |              Size | Example             |
+| --------- | ----------------: | ------------------- |
+| `byte`    |   1 byte (8 bits) | `byte a = 10;`      |
+| `short`   | 2 bytes (16 bits) | `short a = 1000;`   |
+| `int`     | 4 bytes (32 bits) | `int a = 10000;`    |
+| `long`    | 8 bytes (64 bits) | `long a = 100000L;` |
+| `float`   | 4 bytes (32 bits) | `float a = 10.5f;`  |
+| `double`  | 8 bytes (64 bits) | `double a = 10.5;`  |
+| `char`    | 2 bytes (16 bits) | `char a = 'A';`     |
+| `boolean` |    JVM-dependent* | `boolean a = true;` |
+
+
+non-premetive
+
+
+
+| Type      | Size     | Example                      |
+| --------- | -------- | ---------------------------- |
+| `String`  | Variable | `String name = "Naveen";`    |
+| Array     | Variable | `int[] a = {1,2,3};`         |
+| Class     | Variable | `Student s = new Student();` |
+| Object    | Variable | `Object obj = new Object();` |
+| Interface | Variable | `Runnable r;`                |
+
+
+
+let , var , constant ---> are used to declarte variables
+
+let --> global; variable
+
+
+----------------------------------------- how to declare a variable -------------------------------------------------------------
+
+let X=100;
+		-------------------------------- how to print declared one --------------------------------------------------
+
+		console.log(X);
+
+		-----------------------------=---- how to check data type ---------------------------------------------------
+
+		console.log(typeof X);
+-----------------------------------------  arithmetic operations -------------------------------------------------------------------
+
+
