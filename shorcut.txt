@@ -430,3 +430,33 @@ let X=100;
 -----------------------------------------  arithmetic operations -------------------------------------------------------------------
 
 
+arithmetic operators - operand(values,varables,etc..,)
+		       operators(+,-,/,*)
+
+
+
+------------------------------------------ argumented assignment operator ----------------------------------------------
+
+eg: empcount = empcount +1 ;
+
+>> alternative : eg: empcount += 1 ;
+
+
+------------------------- increment// decrement operators ----------------------
+
+empcount++
+
+empcount --
+
+
+
+----> apply pemdas rule  for complex equations
+
+
+let --> local variable
+
+var --> global variable
+
+constant once declared it cant be changed
+
+
