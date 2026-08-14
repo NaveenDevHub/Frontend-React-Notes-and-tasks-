@@ -460,3 +460,119 @@ var --> global variable
 constant once declared it cant be changed
 
 
+
+Math is an built in class object that provides collections of properties and methods
+
+| Function        | Example               |       Result |
+| --------------- | --------------------- | -----------: |
+| `Math.round()`  | `Math.round(4.6)`     |          `5` |
+| `Math.floor()`  | `Math.floor(4.9)`     |          `4` |
+| `Math.ceil()`   | `Math.ceil(4.1)`      |          `5` |
+| `Math.trunc()`  | `Math.trunc(4.9)`     |          `4` |
+| `Math.abs()`    | `Math.abs(-10)`       |         `10` |
+| `Math.sqrt()`   | `Math.sqrt(25)`       |          `5` |
+| `Math.pow()`    | `Math.pow(2, 3)`      |          `8` |
+| `Math.max()`    | `Math.max(10, 20, 5)` |         `20` |
+| `Math.min()`    | `Math.min(10, 20, 5)` |          `5` |
+| `Math.random()` | `Math.random()`       | Random `0–1` |
+| `Math.sign()`   | `Math.sign(-5)`       |         `-1` |
+
+
+Important constants
+
+console.log(Math.PI);  // 3.141592653589793
+console.log(Math.E);   // 2.718281828459045
+
+
+
+--------------------------------------------- conditional statement --------------------------------------
+1. if statement
+
+Executes code when the condition is true.
+
+let age = 20;
+
+
+if (age >= 18) {
+    console.log("Eligible to vote");
+}
+2. if...else
+
+If the condition is true → if block
+If false → else block
+
+let age = 16;
+
+
+if (age >= 18) {
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}
+3. if...else if...else
+
+Used when there are multiple conditions.
+
+let marks = 75;
+
+
+if (marks >= 90) {
+    console.log("A Grade");
+} else if (marks >= 75) {
+    console.log("B Grade");
+} else if (marks >= 50) {
+    console.log("C Grade");
+} else {
+    console.log("Fail");
+}
+4. Nested if
+
+An if statement inside another if.
+
+let age = 20;
+let id = true;
+
+
+if (age >= 18) {
+    if (id == true) {
+        console.log("Entry allowed");
+    }
+}
+5. switch
+
+Used when you want to compare one value with multiple cases.
+
+let day = 2;
+
+
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+
+    case 3:
+        console.log("Wednesday");
+        break;
+
+
+    default:
+        console.log("Invalid day");
+}
+6. Ternary operator
+
+A short form of if...else.
+
+let age = 20;
+
+
+let result = age >= 18 ? "Eligible" : "Not Eligible";
+
+
+console.log(result);
+
