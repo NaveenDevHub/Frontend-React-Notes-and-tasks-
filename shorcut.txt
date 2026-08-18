@@ -576,3 +576,56 @@ let result = age >= 18 ? "Eligible" : "Not Eligible";
 
 console.log(result);
 
+
+
+String methods
+
+ --> Allow us to manipulate or work with text or strings
+ --> charAT() -->  to find the letter based on index like 0--> s   eg:"Siva kumar"
+ --> indexOf() --> to find the index based on the given letter s --> -0 eg: "siva kumar"
+ --> lastIndexOfindexOf() --> to find the index based on the given letter s --> -0 eg: "siva kumar" --->  last s in the given name 
+
+
+
+
+
+Example : let str = "Hello World";
+
+
+
+| Method          | Purpose                     | Example                      | Output         |
+| --------------- | --------------------------- | ---------------------------- | -------------- |
+| `length`        | Finds string length         | `str.length`                 | `11`           |
+| `toUpperCase()` | Converts to uppercase       | `str.toUpperCase()`          | `HELLO WORLD`  |
+| `toLowerCase()` | Converts to lowercase       | `str.toLowerCase()`          | `hello world`  |
+| `charAt()`      | Gets character at index     | `str.charAt(1)`              | `e`            |
+| `charCodeAt()`  | Gets ASCII/Unicode value    | `str.charCodeAt(1)`          | `101`          |
+| `indexOf()`     | Finds first position        | `str.indexOf("o")`           | `4`            |
+| `lastIndexOf()` | Finds last position         | `str.lastIndexOf("o")`       | `7`            |
+| `includes()`    | Checks if text exists       | `str.includes("World")`      | `true`         |
+| `startsWith()`  | Checks beginning            | `str.startsWith("Hello")`    | `true`         |
+| `endsWith()`    | Checks ending               | `str.endsWith("World")`      | `true`         |
+| `slice()`       | Extracts part of string     | `str.slice(0, 5)`            | `Hello`        |
+| `substring()`   | Extracts part of string     | `str.substring(0, 5)`        | `Hello`        |
+| `replace()`     | Replaces text               | `str.replace("World", "JS")` | `Hello JS`     |
+| `replaceAll()`  | Replaces all occurrences    | `str.replaceAll("o", "x")`   | `Hellx Wxrld`  |
+| `trim()`        | Removes spaces at both ends | `" Hello ".trim()`           | `Hello`        |
+| `concat()`      | Joins strings               | `"Hello".concat(" World")`   | `Hello World`  |
+| `split()`       | Converts string to array    | `"A,B,C".split(",")`         | `["A","B","C"] |
+
+
+
+| Method       | Purpose                                      | Example                | Output        |
+| ------------ | -------------------------------------------- | ---------------------- | ------------- |
+| `padStart()` | Adds characters to the beginning of a string | `"5".padStart(3, "0")` | `"005"`       |
+| `padEnd()`   | Adds characters to the end of a string       | `"5".padEnd(3, "0")`   | `"500"`       |
+| `repeat()`   | Repeats a string                             | `"Hi ".repeat(3)`      | `"Hi Hi Hi "` |
+
+
+
+
++91-73052-82713
+
+how to remove the - in the mobile number --> | `replaceAll()`  | Replaces all occurrences    | `str.replaceAll("o", "x")`   | `Hellx Wxrld`  |
+
+

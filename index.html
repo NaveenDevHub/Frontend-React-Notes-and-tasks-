@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend - july26</title>
+    <style>
+      /* body {
+        background-color: lawngreen;
+      } */
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>This is H1 heading</h1> 
+        <h2>This is H2 heading</h2> 
+        <h3>This is H3 heading</h3> 
+        <h4>This is H4 heading</h4> 
+        <h5>This is H5 heading</h5> 
+        <h6>This is H6 heading</h6> 
+
+          <br><br>
+
+        <p>this paragraph tag</p>
+        <br><br>
+        <br><br>
+        <br><br>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae magni similique facere at necessitatibus eligendi doloribus repellendus velit aliquam sit fugiat itaque ad, quidem neque consequatur, veritatis earum officiis est?  </p>
+
+         <hr>
+
+         <pre>
+
+            
+         </pre> 
+
+         <a href="/lyrics.html" target="_blank" title="goes google page" >click me </a> 
+
+        <h1>this dog image</h1>
+        <a href="">
+            <img src="/Images/img1.jpg" height="200" alt="this is dog image" >
+            <img src="/Images/puppy-eyes-puppy.gif" height="200" alt="this is dog image" >
+            <img src="/Images/" height="200" alt="this is dog image" >
+        </a>
+      
+        <audio controls autoplay muted loop>
+           <source src="/Songs/Ella-Pugazhum-MassTamilan.fm (2).mp3" type="audio/mp">
+        </audio>
+
+        <video src="">
+          <source>
+        </video>  
+
+        <p>This is normal text</p>
+        <p>This is <b>Bold</b> text</p>
+        <p>This is <i>Italic</i> text</p>
+        <p>This is <u>Underlined</u> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <big>big</big> text</p>
+        <p>This is <small>small</small> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <mark style="background-color: green;">normal</mark> text</p>  
+
+
+         <h1><span style="background-color: red;" >This is span title</span></h1>
+         <h1> <div style="background-color: blue;" >This is div title</div>  </h1>
+        
+          <p>  <span style="background-color: red;" >this is span sentence</span> </p>
+          <p> <div style="background-color: blue;">this is div sentence</div> </p>
+
+
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tenetur consequatur vero blanditiis placeat eveniet consequuntur beatae quam quidem <span style="background-color: red;" >provident vel repellat aperiam reprehenderit perspiciatis totam, tempore omnis officiis eos.</span></p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tenetur consequatur vero blanditiis placeat <div style="background-color: blue;">eveniet consequuntur beatae quam quidem provident vel repellat aperiam reprehenderit perspiciatis totam, tempore omnis officiis eos.</div></p> 
+
+    unorder list  
+ 
+        <h4>Groceries</h4>
+        <ul>
+          <li>milk</li>
+          <li>tea powder</li>
+          <li>eggs</li>
+          <li>bread</li>
+          <li>coffee supplies</li>
+               <ul>
+                     <li>Milk cream</li>
+                     <li>sugar</li>
+                     <li>coffe powder</li>
+               </ul>
+        </ul>   
+        
+        
+
+        order list  
+
+
+        <h4>To do list</h4>
+        <ol>
+          <li>Bruh up</li>
+          <li>Take bath</li>
+          <li>have breakfast</li>
+          <li>Go to office</li>
+        </ol>  
+
+
+
+
+        <h1>Office Hours</h1>
+
+        <table border="1" >
+            <tr align="center" style="background-color: red">
+              <th width="100" >Monday</th>
+              <th width="100" >Tuesday</th>
+              <th width="100" >Wednesday</th>
+              <th width="100" >Thursday</th>
+              <th width="100" >Friday</th>
+              <th width="100" >Saturday</th>
+              <th width="100" >Sunday</th>
+            </tr>
+            <tr align="center" style="background-color: grey">
+              <td>10 - 5</td>
+              <td>10 - 5</td>
+              <td>10 - 5</td>
+              <td>10 - 5</td>
+              <td>10 - 5</td>
+              <td>10 - 1</td>
+              <td>Off</td>
+            </tr>
+        </table>
+                  
+      
+      <a href="/lyrics.html">
+        <button style="font-size: 25px; background-color: green; color: aliceblue; border-radius: 8px;" >Click me</button>
+      </a>
+      
+      
+       
+       <button onclick="clickMe()" style="font-size: 25px; background-color: green; color: aliceblue; border-radius: 8px;" >Click me</button>
+    
+        <p id="greeting" >Hello ganesh</p> 
+       
+       <script>
+           function clickMe() {
+                document.getElementById("greeting").innerHTML = "Good bye ganesh"
+           }
+       </script>   
+
+    <form action="customer.cpp" method="POST" enctype="multipart/form-data">
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        id="username"
+        placeholder="dinesh_007"
+        minlength="6"
+        maxlength="20"
+        required
+      />
+      <br /><br />
+
+      <label for="password">Password: </label>
+      <input type="password" id="password" />
+      <br /><br />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="ganesh007@gmail.com" />
+      <br /><br />
+
+      <label for="phone">Phone no</label>
+      <input
+        type="tel"
+        id="phone"
+        placeholder="91-66658-67766"
+        pattern="[0-9]{2}-[0-9]{5}-[0-9]{5}"
+      />
+      <br /><br />
+
+      <label for="bday">Birthdate</label>
+      <input type="date" id="bday" />
+      <br /><br />
+
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" min="0" max="99" value="1" />
+      <br /><br />
+
+
+      <label for="title">tite: </label>
+
+      <label for="title">Mr:</label>
+      <input type="radio" id="Mr:" value="Mr:" name="title">
+      <label for="title">Ms:</label>
+      <input type="radio" id="Ms:" value="Ms:"  name="title">
+      <label for="title">Dr:</label>
+      <input type="radio" id="Dr:" value="Dr:"  name="title">
+       <br /><br />
+
+      <label for="payment">Payment</label>
+      <select name="" id="payment">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="rupay">Rupay</option>
+      </select>
+      <br><br>
+
+      <label for="subscribe">Subscribe</label>
+      <input type="checkbox" id="subscribe"> 
+      <br><br>
+
+      <label for="comment">Commnet</label>
+      <textarea name="" id="" rows="10" cols="20"></textarea>
+       <br><br>
+    
+       <label for="file">File submission</label>
+       <input type="file" id="file" accept="">
+
+       <br><br> 
+
+              
+  
+
+      <input type="submit" />
+      <input type="reset" />
+    </form> 
+
+
+       <header  style="background-color: lightcoral;">
+            <h1>Besant Technology - React Class</h1>
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Courses</a>
+            <a href="">Contact-us</a>
+       </header>
+
+       <main>
+            <h4>Courses we offer</h4>
+            <img src="/Images/salad.jpg" alt="" width="100">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum necessitatibus ratione earum, aut consectetur, officia culpa eius aspernatur facilis, labore aliquam delectus voluptate accusamus architecto? Quam perspiciatis unde modi atque.</p>
+       </main>
+
+      <footer style="background-color: lightcoral;">
+            <hr>
+             
+            author: DineshDev <br>
+            &copy: Copyright reserved <br>
+            <a href="mailto:dineshjr107@gmail.com">dineshjr107@gmail.com</a>
+            
+       </footer>
+
+
+       <h1 id="h1">This is our Website</h1>
+  
+      <p id="p1" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+      <p id="p2" class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+      <p id="p3" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p>
+      <p id="p4" class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit atque, iste excepturi doloremque architecto cumque repellendus magni ducimus velit, consectetur, porro numquam reiciendis dignissimos debitis harum? Placeat dignissimos quae at!</p> 
+
+
+       <h1 id="h1">This is our Website</h1>
+  
+      <p id="p1" class="odd"></p> 
+
+      <div class="box" id="box1">Box 1</div>
+      <div class="box" id="box2">Box 2</div>
+
+
+      <img src="/Images/img1.jpg" height="200px" alt="" id="img1">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, odit exercitationem, velit vero dicta necessitatibus incidunt a iusto recusandae magnam officia aspernatur maiores repellendus deserunt, ab quaerat placeat nemo id?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, odit exercitationem, velit vero dicta necessitatibus incidunt a iusto recusandae magnam officia aspernatur maiores repellendus deserunt, ab quaerat placeat nemo id?</p>
+       <img src="/Images/puppy-eyes-puppy.gif" height="200px" alt="" id="img2">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, odit exercitationem, velit vero dicta necessitatibus incidunt a iusto recusandae magnam officia aspernatur maiores repellendus deserunt, ab quaerat placeat nemo id?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, odit exercitationem, velit vero dicta necessitatibus incidunt a iusto recusandae magnam officia aspernatur maiores repellendus deserunt, ab quaerat placeat nemo id?</p>  
+
+
+      <div id="div1">
+        <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti optio molestias quaerat. Dignissimos eos eveniet quaerat. </p>
+      </div>  
+
+<div id="div1">div</div>
+
+<span id="span1">span</span>
+
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet unde natus libero ad illo accusantium laborum cum, ipsam porro provident esse nam obcaecati, quibusdam impedit illum officiis quo. Quos, atque. 
+
+    <div class="container">
+      <div class="box">
+        <h2 class="h1">this is 1</h2>
+        <p class="p1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda et
+          consequuntur quibusdam, similique asperiores deleniti, quod iste ipsa
+          voluptates vitae placeat! Placeat dicta possimus commodi obcaecati
+          facilis deleniti perspiciatis veniam.
+        </p>
+      </div>
+      <div class="box">
+        <h2 class="h1">this is 2</h2>
+        <p class="p1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda et
+          consequuntur quibusdam, similique asperiores deleniti, quod iste ipsa
+          voluptates vitae placeat! Placeat dicta possimus commodi obcaecati
+          facilis deleniti perspiciatis veniam.
+        </p>
+      </div>
+    </div>
+
+
+     <div id="box1">
+         <div id="box2">
+           <div id="box3">
+           <div id="box4">
+          
+         </div>
+         </div>
+         </div>
+     </div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum quisquam nesciunt culpa vitae molestiae iste vero, eius laboriosam magnam. Reprehenderit, quidem odio. Perferendis aspernatur fuga ducimus? Molestias, repellendus blanditiis!</p> 
+     
+
+     <div id="container">
+       <p>this is p1</p>
+       <p>this is p2</p>
+       <div>
+          <p>this is p3</p>
+       </div>
+     </div>
+    
+      <p>this is p4</p>
+      <p>this is p5</p>  
+
+      <a  id="link1" href="https://youtube.com">Youtube</a>
+
+      <ul>
+        <li>This is #1</li>
+        <li>This is #2</li>
+        <li>This is #3</li>
+        <li>This is #4</li>
+        <li>This is #5</li>
+        <li>This is #6</li>
+        <li>This is #7</li>
+        <li>This is #8</li>
+        <li>This is #9</li>
+      </ul>  
+
+      <div id="greeting">
+        Hover me
+        <p>Hello</p>
+      </div> 
+
+      <h1>Hello</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione, possimus eveniet corrupti tempore commodi aspernatur architecto aperiam nostrum, a optio in beatae atque! Nisi praesentium vitae porro ipsa recusandae.</p>
+      
+      <ul id="fruit">
+        <li id="apple" >Apple</li>
+        <li id="orange">Orange</li>
+        <li id="banana">Banana</li>
+      </ul> 
+
+      <div class="dropdown">
+        <button>Food</button>
+        <div class="content">
+          <a href="">Apple</a>
+          <a href="">Orange</a>
+          <a href="">Banana</a>
+          <a href="">Pineapple</a>
+        </div>
+      </div>
+     
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, blanditiis! Repellat ratione possimus, sint laboriosam deleniti placeat id alias excepturi quis veniam sapiente doloribus, animi praesentium sequi porro, maiores error!</p> 
+
+
+     <div class="container">
+      <div class="box" id="box1">1</div>
+      <div class="box" id="box2">2</div>
+      <div class="box" id="box3">3</div>
+      <div class="box" id="box4">4</div>
+     
+     </div>
+
+     <div id="box">hi</div> 
+
+     <h1 id="myH1" ></h1>
+     <p id="myP"></p>  
+
+     <h1 id="myH1">Welcome</h1>
+
+     <label for="myText" >Username</label>
+     <input type="text" id="myText"> <br><br>
+     <button id="mySubmit">submit</button> -->
+     
+     <label for="myCheckbox">Subscribe</label>
+     <input type="checkbox" id="myCheckbox">
+     <br><br>
+     <input type="radio" id="visaBtn" name="card">
+     <label for="visaBtn">Visa</label>
+     <br><br>
+     <input type="radio" id="mastercardBtn" name="card">
+     <label for="mastercardBtn">Mastercard</label>
+     <br><br>
+     <input type="radio" id="rupayBtn" name="card">
+     <label for="rupayBtn">Rupay</label>
+     <br><br>
+
+     <button type="submit" id="mySubmit">Submit</button>
+
+     <p id="subResult"></p>
+     <p id="paymentResult"></p>
+
+     
+    <script src="index.js" ></script>
+
+  </body>
+</html>
