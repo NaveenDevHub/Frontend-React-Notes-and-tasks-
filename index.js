@@ -183,32 +183,72 @@
 //     console.log("you must ve 18+ to vote");
 // }
 
-let myCheckbox = document.getElementById("myCheckbox");
-let visaBtn = document.getElementById("visaBtn");
-let mastercardBtn = document.getElementById("mastercardBtn");
-let rupayBtn = document.getElementById("rupayBtn");
-let mySubmit = document.getElementById("mySubmit");
-let subResult = document.getElementById("subResult");
-let paymentResult = document.getElementById("paymentResult");
 
-mySubmit.onclick = function () {
+// for each triple the value.
 
-  if (myCheckbox.checked) {
-    subResult.textContent = `You are subscribed!!!`;
-  } else {
-    subResult.textContent = `You are not subscribed!!!`;
-  }
+// let number=[1,2,3,4,5,6]
 
-  if (visaBtn.checked) {
-    paymentResult.textContent = `You selected Visa`;
-  }
-  else if (mastercardBtn.checked) {
-    paymentResult.textContent = `You selected Mastercard`;
-  }
-  else if (rupayBtn.checked) {
-    paymentResult.textContent = `You selected Rupay`;
-  }
-  else {
-    paymentResult.textContent = `Please select a payment method`;
-  }
-};
+// number.forEach(triple);
+// number.forEach(display);
+
+// function triple(element,index,array){
+
+//   array[index]=element+element+element;
+
+// }
+
+// function display(element){
+//   console.log(element)
+// }
+
+// square value .
+
+// const numbers=[1,2,3,4,5,6];
+
+// function square(element){
+//   return Math.pow(element,2);
+// }
+
+// console.log(numbers.map(square));
+
+
+// cubic value .
+
+// const numbers=[1,2,3,4,5,6];
+
+// function square(element){
+//   return Math.pow(element,3);
+// }
+
+// console.log(numbers.map(square));
+
+// uperCase to lowerCase
+
+// const names=['NAVEEN','JAYASHRI','SHYLA','MARIYA','SIVA'];
+
+// function uppertolower(elements){
+//   return elements.toLowerCase()
+// }
+
+// console.log(names.map(uppertolower));
+
+
+
+// first letter lower case
+
+// const names=['NAVEEN','JAYASHRI','SHYLA','MARIYA','SIVA'];
+
+// function firsttolower(element){
+//   return element[0].toLowerCase() + element.slice(1)
+// }
+
+// let result = names.map(firsttolower);
+
+// console.log(result);
+
+
+// function displaywebpage(result){
+//   document.getElementById("array").textContent=result
+// }
+
+// displaywebpage(result)

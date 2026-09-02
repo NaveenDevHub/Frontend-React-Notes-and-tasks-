@@ -626,6 +626,103 @@ Example : let str = "Hello World";
 
 +91-73052-82713
 
-how to remove the - in the mobile number --> | `replaceAll()`  | Replaces all occurrences    | `str.replaceAll("o", "x")`   | `Hellx Wxrld`  |
+how to remove the - in the mobile number --> | `replaceAll()`  | Replaces all occurrences    | `str.replaceAll("o", "x")`   | `Hellx World`  |
 
+
+
+we will see this in array concept
+
+
+Nested Loops --> the loop inside the another loop is called nested loop.
+
+
+
+functions -- a secction of reusable code
+	declare once , use it it when ever you want ,, call the function to execute the code
+
+	Return Keyword
+		if there is no return keyword is called void function // its not in js
+
+
+-- to check the mail is valid or not ? --> to check the @ is present in the email using include string methods.
+
+------------------------------------------------------- 25/08/2026 task -------------------------------------------------------------
+create a function whether a number is odd 
+create a function which return first 100 prime numbers
+create a function to extract the username from the email
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Variable scope --> where a variable is recognized and accessible (local and global )
+	let and var
+
+	
+
+Arrays --> 
+
+
+
+only in js 
+	 call backs 
+	 spreed and rest 
+	 rest parameter
+	 type script is an oops based concept
+
+
+****** important *******
+Callbacks -  a function that is passes as an argument to another function.
+
+used to handle the asynchrounos operations
+
+Reading a file 
+Network requests 
+Interacting with database 
+
+Hey, when you are done, call this next 
+****** important *******
+
+create call for to area of cirlce 
+create a callback for multiplication 
+create callback for to find squareroot
+
+Example:
+	sum(displayWebpage, 4, 2); 
+
+	function sum(callback, x, y) {
+	    let result = x + y;
+	    callback(result);
+	}
+	//                         6
+	function displayConsole(result) {
+	    console.log(result);
+	}
+
+	function displayWebpage(result) {
+	     document.getElementById("myH1").textContent = result;
+	}
+
+-------------------------------- 01/09/2026 -------------------------------------------------------------
+
+forEach() --> methode is uddes to iterate  over the elements of an array and apply specified function  (call backs ) to each elements 
+
+syntax
+	arrayname.forEach(callback);
+	// elemnts,index,array are provided 
+	// the js understand like this we can give our own name
+
+
+map() --> difference between mapo and forEach --> important interview question -->  forEach() → performs an action on each element, while map() → transforms each element and returns a new array.
+
+same like that forEach but it can create new array ,, it accept callback and applies that function to each element of an array , then return a new array.
+
+syntax
+    arrayname.map(function(element, index, array) {
+        return value;
+    });
+----------------------------------01/09/2026------------------------------------------------------------
+
+// triple the value   --> all are showed in webpage not in console
+// cubic value --> all are showed in webpage not in console
+// uperCase to lowercase --> all are showed in webpage not in console
+// first letter lowercase --> all are showed in webpage not in console
 
