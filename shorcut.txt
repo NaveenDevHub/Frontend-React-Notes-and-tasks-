@@ -703,7 +703,7 @@ Example:
 
 -------------------------------- 01/09/2026 -------------------------------------------------------------
 
-forEach() --> methode is uddes to iterate  over the elements of an array and apply specified function  (call backs ) to each elements 
+forEach() --> methode is used to iterate  over the elements of an array and apply specified function  (call backs ) to each elements 
 
 syntax
 	arrayname.forEach(callback);
@@ -716,13 +716,106 @@ map() --> difference between mapo and forEach --> important interview question -
 same like that forEach but it can create new array ,, it accept callback and applies that function to each element of an array , then return a new array.
 
 syntax
-    arrayname.map(function(element, index, array) {
+    arrayname.map(function_name(element, index, array) {
         return value;
     });
+
+
+filter()
+reduce()
 ----------------------------------01/09/2026------------------------------------------------------------
 
 // triple the value   --> all are showed in webpage not in console
 // cubic value --> all are showed in webpage not in console
 // uperCase to lowercase --> all are showed in webpage not in console
 // first letter lowercase --> all are showed in webpage not in console
+
+
+
+------------------------------------03/09/2026-------------------------------------------------------------
+function decalaration --> defines a reusable  block of code that performs a sprcific task.
+
+
+function function_name() --> signature part
+{
+	console.log()         --> implementation part
+}
+
+function expresssion --> a way to  defines function as value or variable.
+
+const hello = function function_name() 
+{
+	console.log()                        
+}
+
+
+setTimeout(function_name,3000);  --> is used to set the time to execute that.. // setTimeout is an inbuild function.
+
+
+
+arrow function() --> a easay way to write a function expression ,, it good for simple function that you use only once  // in arrow functio this kryword doesnot work.
+
+syntax:
+	const hello = () => console.log("");
+	hello();                                   --> only for singlee line function.
+
+
+	const hello = () => {console.log("");
+						console.log(""); }      --> for multiple line function.
+	hello();    
+
+Objects() --> oops concepts
+
+object --> collections of related properties and / or methods which will repressent real world objects (people , product) --> the object have compulsory different name .
+
+syntax;
+	object = {
+		key,value,
+		functions
+	}
+
+
+
+Example:
+
+	const person={
+	  // key       value
+		firstname:" naveen",
+		lastname:" kumar",
+		age:"22",
+
+		syahello: function(){console.log("hi how are you");} ==> normal declaration
+
+		sayhello: ()=> console.log("how are you");
+	}
+
+	comsole.log(person.firstname);
+	person.syahello();
+	person.sayhello();
+
+
+
+this keyword --> reference to that object where this is used (the object dependes on the imediate context)
+person.name= this.name;
+
+const person={
+	  // key       value
+		firstname:" naveen",
+		lastname:" kumar",
+		age:"22",
+
+		syahello: function(){console.log("hi how are you${this.firstnamename}");} ==> normal declaration
+
+		sayhello: ()=> console.log("how are you");
+	}
+
+	person.syahello();
+
+
+Task:
+// odd number using fun expresssion
+// cubic fun using fun expresssion
+// odd number using arrow function and sepate  timeout
+// cubic fun using arrow function  and seprate timeout
+
 

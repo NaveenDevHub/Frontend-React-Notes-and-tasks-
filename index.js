@@ -234,7 +234,7 @@
 
 
 
-// first letter lower case
+// // first letter lower case
 
 // const names=['NAVEEN','JAYASHRI','SHYLA','MARIYA','SIVA'];
 
@@ -244,11 +244,22 @@
 
 // let result = names.map(firsttolower);
 
-// console.log(result);
-
 
 // function displaywebpage(result){
 //   document.getElementById("array").textContent=result
 // }
 
 // displaywebpage(result)
+
+// sum(console, 4, 2); 
+
+// 	function sum(callback, x, y) {
+// 	    let result = x + y;
+// 	    callback(result);
+      
+// 	}
+// 	//                         6
+// 	function console(result) {
+// 	    console.log(result);
+// 	}
+
