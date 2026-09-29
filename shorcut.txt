@@ -819,3 +819,238 @@ Task:
 // cubic fun using arrow function  and seprate timeout
 
 
+-------------------------------- 07-09-2026 ---------------------------------------------------------------------------
+
+constructors --> special method for defining the common properties and methods of objects. --> to initialize the common properties and methods 
+
+	syntax:
+		function function_name(callback){
+			this.callback
+		}
+						    // to create instanse to store value:
+		const variable_name = new bike1(value for call back);
+
+		console.log(bike1.callback)
+
+
+class --> ES6 feature Provides a more structured and cleaner way to work object compared to traditional constructor function.
+		  static , encapsulation , inheritance , constructors // common example : collection of proprties and methods.  // static is a keyword.
+
+		  syntax:
+
+			class class_name {
+				constructor(Callbacks){
+					this.callback= name // Variable
+				}
+
+				function_name(){
+				}						/// to create function whatever you want
+			}
+
+
+			const variable_name = new class_name (value for call back)
+
+			this.callback_value.tofixed(0) is used to fixed the how many zeros after the decimal point  
+
+static --> keyword that defines properties or methods that belongs to a classs itself rather than the object created from the class (class owns anything static, not the objects ) without creating objects we can call the static methods and static variables.
+
+static --> utility or common functionality , that does not depend on individual object data such validation , formating , calculations.
+
+task:
+	above 100 give discount some percent.
+	below 100 dont give discount.
+
+
+
+difference between static and this and super keyword
+	static --> that are used without creating objects.
+	this --> current class access.
+	super --> access from parent class.
+
+
+inheritance--> allow a new class to inherit properties and methods from a existing class(parent --> child class) 
+				help with code reusability.
+
+
+
+super --> keyword is udes to classes to call the constructors or access the properties and methods of the of the parent class (super class ).
+
+---------------------------------------  09/09/2026 ----------------------------------------------------
+Getters and Setters 
+
+	Getters --> special methods that makes A PROPERTY READABLE.
+	Setters --> special methids that makes a property writable.
+
+	validate and modify the value when reading / writing a property.
+
+
+_width --> the _ represent private property.
+
+destructing --> most used one in react js 
+nested onjects
+array objects 
+sorting
+closures
+setTimeout
+
+destructing --> extract values from arrays and objects , then asign them to variable in convinent way .
+
+[] --> to perform array destructing.
+{} --> to perform object destructing.
+
+
+
+examples:
+
+	1. swap the numbers. // without using temporary variable // [a,b] = [b,a] , we can ude destructing 
+
+	swap the two variables in an array 
+
+	s=['red','blue','green']
+	[s[0],s[1]=s[1],s[0]]
+
+
+	2. assign array elements to variable
+
+
+
+	-----------------------------------------------------------------------------------------------------
+
+	nested objects --> object inside the other object.
+	allow you us to represent more complex data structure.
+	child object is enclosed with a parent objects
+
+
+
+	nested of arrays. --> array of objects 
+
+
+callback hell --> situtation injavascript where callback are called inside the another callback to the dgree where the code is difficult to reed.
+
+old pattern to handle the asynchronous function.
+
+promises a sync/await to avoid the callback hell.
+
+
+
+Promises --> an object that manage the asynchronous operations.
+
+wrape a promises object around {asynchronous code }
+
+"I promise to return a value "
+
+Pending state --> resolve or rejected 
+
+new promises((resolve or rejected )=> {asynchronous} )
+
+do the task in ordered
+
+1. brush-up
+2. walk the dog
+3. clean the kitchen
+4. take the trash out 
+5. out to office 
+
+
+--------------------------------18/09/2026--------------------------------------------------------------
+
+async --> makes function return a promise 
+await --> makes a async function wait for a promise 
+		  allows you to writa a async code  in a synchronous manner 
+		  async does not have resolve or reject 
+		  everything after await is placed ina event queue 
+
+d/w promises and async await
+
+			| ----------------------------------------------- | ----------------------------------- |
+			| Uses `.then()`                                  | Uses `await`                        |
+			| Uses `.catch()`                                 | Commonly uses `try...catch`         |
+			| Can become difficult with many `.then()` chains | Usually easier to read              |
+			| Promise                                         | `async/await`                       |
+			| More traditional syntax                         | Cleaner, synchronous-looking syntax |
+			| `async/await` is built on Promises              | Requires Promises underneath        |
+
+
+
+
+json --> javascript object notation.
+		 data-interchange formate
+
+		 used for exchange data between a server and a application 
+
+		 json files
+		 {
+			key:value
+		 }
+
+		 or
+
+		 [value1,value2,value3]
+
+
+		 methode to handle json file 
+		 	1. json.stringify() --> converrt a js object into a json string .
+			2. json.prase() --> convert json string into json object.
+
+
+fetch --> it is an function ,, it return the promise
+
+
+
+REACT ------------------------------------------
+
+
+npm create vite@latest --> is used to download latest packages.
+then enter y to allow acces 
+then crete project name 
+we choose which framework we use --> react
+we choose javacript + react compiler
+it can run in local server
+
+
+
+control+c to exit the server
+npm run dev --> retart the server
+
+
+class component  --> its is an old methode ,, now its not in use
+functionla component 
+
+
+class component  --> its is an old methode ,, now its not in use
+	ComponenetMounted
+	ComponentUnmounted
+
+
+D/W class component and functional components?
+	The main difference between class components and functional components in React is the way they are written and how they manage state and lifecycle methods. A class component is created using a JavaScript class and uses `this.state`, `this.setState()`, and lifecycle methods such as `componentDidMount()`. A functional component is a simple JavaScript function and uses React Hooks like `useState()` and `useEffect()` to manage state and side effects. Functional components are shorter, easier to understand, and are commonly used in modern React development, while class components are mainly found in older React applications.
+
+
+
+Props --> property
+	{}--> we can call assigned variable inside the html code
+	// inside  the same file
+
+	use the component from another file/module
+	<employee /> --> <employee companyName=(companyName) />
+	function function_name(props){
+		where we use the other file component in the paticular file we  ca add props keyword
+		const{props name } =props;
+		return();
+	}
+
+	we can send the value through the object.
+
+in case we can send one or more html file <> </> --> fragments we use this to acces that.
+
+
+
+
+---------------------------- Conditional rendering --------------------------------
+
+Conditional rendering
+
+	{objectname.variablename !== undefined && empDetails.role !== undefined ? (<employee/>):null --> alternative off null <h1>}
+
+
+
